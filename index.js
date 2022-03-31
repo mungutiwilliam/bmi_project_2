@@ -12,7 +12,7 @@ app.use(express.static('public'));
 app.get('/contacts', function(request, response){
     response.render('contact_us');
 });
-app.get('/bmi-calculator', function(request, response){
+app.get('/', function(request, response){
     response.render('bmi');
 })
 
