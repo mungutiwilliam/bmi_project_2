@@ -1,15 +1,27 @@
 {
   "name": "my-node-project",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.3",
     "hbs": "^4.2.0"
-  }
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mungutiwilliam/bmi_project_2.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/mungutiwilliam/bmi_project_2/issues"
+  },
+  "homepage": "https://github.com/mungutiwilliam/bmi_project_2#readme",
+  "description": ""
 }
